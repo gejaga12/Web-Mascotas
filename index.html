@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIENDA DE MASCOTAS</title>
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="stock.js"></script>
+    <script defer src="modal.js"></script>
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo" class="titulo">TIENDA DE MASCOTAS</h1>
+        <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">
+                    Gatos
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    Perros
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    Contactos
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    Clientes
+                </a>
+            </li>
+        </ul>
+
+    </nav>
+
+    
+
+    <main id="contenedor-productos">
+
+    </main>
+
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+                <!-- <div class="productoEnCarrito">
+                    <p>Buzo 1</p>
+                    <p>Precio: $1200</p>
+                    <button class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
+                </div> -->
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+
+            
+        </div>
+       
+    </div>
+   
+</body>
+
+<footer> 
+    Gerardo Garcia WEB 2020 - Todos los derechos reservados.
+</footer>
+
+</html>
